@@ -323,6 +323,30 @@ footer {
  padding: 20px;
 
 }
+@media screen and (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container form {
+    margin-top: 1rem;
+    text-align: center;
+  }
+}
+
+/* Adjust the hero banner layout for smaller screens */
+@media screen and (max-width: 480px) {
+  .hero-banner {
+    height: 200px;
+  }
+
+  .scroll-arrow {
+    display: none;
+  }
+}
+
+
 
 
 
